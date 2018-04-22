@@ -16,3 +16,21 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+h1 {
+    color: grey
+}
+h2 {
+    color: lightgrey
+}
+h3 {
+    color: lightgrey
+}
+.myfooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey
+    color: black
+    text-align: center;
+}
