@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1858
     height: 987
-  m_MinSize: {x: 677, y: 471}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 2025
+  controlID: 1126
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 1858
     height: 689
-  m_MinSize: {x: 677, y: 200}
-  m_MaxSize: {x: 12002, y: 4021}
+  m_MinSize: {x: 679, y: 221}
+  m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 1999
+  controlID: 1127
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,8 +144,8 @@ MonoBehaviour:
     y: 0
     width: 1377
     height: 689
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -179,14 +179,14 @@ MonoBehaviour:
     height: 668
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 516.0505069086586
+  lastFramingTime: 59.594229902281626
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.438215, y: 10.911797, z: -0.15346351}
+    m_Target: {x: 208, y: 130, z: 0}
     speed: 2
-    m_Value: {x: 11.438215, y: 10.911797, z: -0.15346351}
+    m_Value: {x: 208, y: 130, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -214,9 +214,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 37.309395
+    m_Target: 370.03226
     speed: 2
-    m_Value: 37.309395
+    m_Value: 370.03226
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -282,9 +282,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c8edffff
-    m_LastClickedID: -4664
-    m_ExpandedIDs: 18f0ffff06f3ffff68fbffff00000000
+    m_SelectedIDs: 8059ffff
+    m_LastClickedID: -42624
+    m_ExpandedIDs: d85cffff4462ffff4e69ffff4c6affff626bfffff06fffffde75ffff627affff907fffffde83ffff0688ffff9a8bffffb28effff1897ffff0898ffff1e99ffffac9dffff9aa3ffff1ea8ffff4cadffff9ab1ffffc2b5ffff56b9ffff6ebcffffeaf2ffff9efbffff00000000c82d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_MinSize: {x: 534, y: 271}
   m_MaxSize: {x: 18004, y: 10021}
   vertical: 0
-  controlID: 2026
+  controlID: 1062
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -455,19 +455,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Sounds
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Sounds
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Projetos Unity\LudumDare41
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e270000
-    m_LastClickedID: 10142
-    m_ExpandedIDs: 000000009a2700009e270000aa28000000ca9a3bffffff7f
+    m_SelectedIDs: b4270000
+    m_LastClickedID: 10164
+    m_ExpandedIDs: 00000000982700009c270000a828000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -495,7 +495,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: dc270000
     m_LastClickedID: 10204
-    m_ExpandedIDs: 000000009a2700009e270000aa28000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000982700009c270000a828000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,9 +520,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c8edffff
-    m_LastClickedInstanceID: -4664
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 8059ffff
+    m_LastClickedInstanceID: -42624
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300008a2c0000000000006a3e0000e03a0000104c0000ea2700008ed20100e89702003ef4fbffe450f4ffda5eefff62b8eeff70baeeff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -547,7 +547,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 48}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 274
 --- !u!114 &13
