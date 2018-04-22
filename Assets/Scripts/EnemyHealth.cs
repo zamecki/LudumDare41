@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour {
 
-    public AudioClip haha;
-    public AudioClip pop;
-    private AudioSource source;
+    public GameObject haha;
+    public GameObject pop;
     private bool play = true;
     void Start () {
-        source = GetComponent<AudioSource>();
 
     }
 	
@@ -23,16 +21,13 @@ public class EnemyHealth : MonoBehaviour {
         if (collision.tag == "Weapon")
         {
             transform.tag = "Untagged";
-            source.clip = pop;
-            source.Play();
-            play = false;
-            Destroy(gameObject, 0.1f);
+            Instantiate(pop);
+            Destroy(gameObject);
         } else if (collision.tag == "Player")
         {
             if (!play)
                 return;
-            source.clip = haha;
-            source.Play();
+            Instantiate(haha);
         }
             
     }

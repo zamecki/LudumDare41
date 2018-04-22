@@ -9,51 +9,51 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1691285158011832}
+  m_RootGameObject: {fileID: 1284193020719746}
   m_IsPrefabParent: 1
---- !u!1 &1691285158011832
+--- !u!1 &1284193020719746
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4505529880942420}
-  - component: {fileID: 114225181361273028}
-  - component: {fileID: 82110228360293022}
+  - component: {fileID: 4822667406280652}
+  - component: {fileID: 82529518170328480}
+  - component: {fileID: 114238884045739392}
   m_Layer: 0
-  m_Name: HeartSound
+  m_Name: EnemyHahaSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4505529880942420
+--- !u!4 &4822667406280652
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1691285158011832}
+  m_GameObject: {fileID: 1284193020719746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.186217, y: 3.844349, z: -0.078125}
+  m_LocalPosition: {x: 8.574498, y: 5.102049, z: -0.17116146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &82110228360293022
+--- !u!82 &82529518170328480
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1691285158011832}
+  m_GameObject: {fileID: 1284193020719746}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 22d45142f1b23274c8bac1b02b5ab954, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6d2cf06681c534b438c7ac563b914c56, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 3
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -108,7 +108,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -121,15 +121,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114225181361273028
+--- !u!114 &114238884045739392
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1691285158011832}
+  m_GameObject: {fileID: 1284193020719746}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 800b6d035fd18bf4ca14bd877a468382, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 1
+  lifeTime: 2

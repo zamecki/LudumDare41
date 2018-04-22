@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locker: {fileID: 0}
-  keySound: {fileID: 8300000, guid: 87d1d8518c8e444488a68beab8b44d6c, type: 3}
+  keySound: {fileID: 8300000, guid: b453d705d0294ba4990f7e9bcd06cba2, type: 3}
 --- !u!212 &212490495896944838
 SpriteRenderer:
   m_ObjectHideFlags: 1

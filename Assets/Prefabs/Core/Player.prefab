@@ -241,7 +241,7 @@ MonoBehaviour:
   weapon: {fileID: 4452474925989276}
   upFace: {fileID: 4632124356224646}
   downFace: {fileID: 4281142284091548}
-  walk: {fileID: 8300000, guid: a8ee853dd72345440bdf4d0f9abd7528, type: 3}
+  walk: {fileID: 8300000, guid: a6c251aef0d2cd54f8de28cbe0e9b668, type: 3}
 --- !u!114 &114061323388137980
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -259,7 +259,8 @@ MonoBehaviour:
   spacing: 1
   hearts: {fileID: 1965862929766262, guid: 92066c8906227b44ca117a4df0ecc935, type: 2}
   heartSound: {fileID: 1691285158011832, guid: 0459e17b1a679604abe8811732bac614, type: 2}
-  hurtClip: {fileID: 8300000, guid: 920f2fd217bcb5d47be0e6a3620087ca, type: 3}
+  hurtClip: {fileID: 8300000, guid: 2d7493d036bb29b48a7487fff4b8792d, type: 3}
+  isStartScene: 0
 --- !u!212 &212632985626841238
 SpriteRenderer:
   m_ObjectHideFlags: 1
