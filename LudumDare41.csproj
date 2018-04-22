@@ -288,8 +288,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\Scripts\ActionTags.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Boundary.cs" />
     <Compile Include="Assets\Scripts\BulletControll.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />

@@ -79,8 +79,12 @@ public class PlayerHealth : MonoBehaviour {
         }
         if (collision.tag == "Finish")
         {
-            GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().EndLevel();
-            GetComponent<PlayerMovement>().Finished();
+            if(!dead)
+            {
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().EndLevel();
+                GetComponent<PlayerMovement>().Finished();
+            }
+
         }
     }
 }
